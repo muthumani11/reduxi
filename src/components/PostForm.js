@@ -16,7 +16,7 @@ class PostForm extends Component {
   }
 
   onChange(e) {
-    this.setState({ [e.target.name]: e.target.value });
+    this.setState({ [e.target.name]: e.target.values });
   }
 
   onSubmit(e) {
